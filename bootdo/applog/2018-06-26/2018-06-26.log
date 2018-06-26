@@ -28002,3 +28002,29 @@ Using default security password: 3def3576-7ba6-418e-95ae-d2a74fbb6a93
 2018-06-26 17:52:10 -耗时 : 1
 2018-06-26 17:52:10 -返回值 : main
 2018-06-26 17:52:41 -WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 12], outboundChannelpool size = 2, active threads = 0, queued tasks = 0, completed tasks = 2], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 7]
+2018-06-26 18:22:41 -WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 12], outboundChannelpool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 368]
+2018-06-26 18:31:48 -请求地址 : http://localhost/login;JSESSIONID=42a9fa55-b172-4f9a-b8af-c6bcdb6a8c4b
+2018-06-26 18:31:48 -HTTP METHOD : GET
+2018-06-26 18:31:48 -CLASS_METHOD : com.bootdo.system.controller.LoginController.login
+2018-06-26 18:31:48 -参数 : []
+2018-06-26 18:31:48 -耗时 : 0
+2018-06-26 18:31:48 -返回值 : login
+2018-06-26 18:31:53 -Application shutdown requested.
+2018-06-26 18:31:53 -Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@49049a04: startup date [Tue Jun 26 17:51:34 GMT+08:00 2018]; root of context hierarchy
+2018-06-26 18:31:53 -Stopping beans in phase 2147483647
+2018-06-26 18:31:53 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-06-26 18:31:53 -Stopping...
+2018-06-26 18:31:53 -BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2018-06-26 18:31:53 -Stopped.
+2018-06-26 18:31:53 -Unregistering JMX-exposed beans on shutdown
+2018-06-26 18:31:53 -Unregistering JMX-exposed beans
+2018-06-26 18:31:53 -Shutting down ExecutorService 'brokerChannelExecutor'
+2018-06-26 18:31:53 -Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2018-06-26 18:31:53 -Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2018-06-26 18:31:53 -Shutting down ExecutorService 'clientInboundChannelExecutor'
+2018-06-26 18:31:53 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2018-06-26 18:31:53 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-06-26 18:31:53 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2018-06-26 18:31:53 -Shutting down Quartz Scheduler
+2018-06-26 18:31:53 -{dataSource-1} closed
+2018-06-26 18:31:53 -Disabled session validation scheduler.
